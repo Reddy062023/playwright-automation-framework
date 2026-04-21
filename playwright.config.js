@@ -1,22 +1,18 @@
-import { defineConfig, devices } from '@playwright/test';
+﻿import { defineConfig, devices } from "@playwright/test";
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: "./tests",
   timeout: 30000,
   reporter: [
-    ['list'],
-    ['allure-playwright', {
-      detail: true,
-      outputFolder: 'allure-results',
-      suiteTitle: true,
-    }],
-    ['html', { outputFolder: 'playwright-report', open: 'never' }],
+    ["list"],
+    ["allure-playwright", { outputFolder: "allure-results" }],
+    ["html", { outputFolder: "playwright-report", open: "never" }],
   ],
   use: {
-    trace: 'on-first-retry',
-    screenshot: 'only-on-failure',
+    trace: "on-first-retry",
+    screenshot: "only-on-failure",
   },
   projects: [
-    { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
+    { name: "chromium", use: { ...devices["Desktop Chrome"] } },
   ],
 });
