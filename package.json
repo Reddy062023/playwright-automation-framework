@@ -1,7 +1,6 @@
 {
   "name": "playwright-automation-framework",
   "version": "1.0.0",
-  "type": "module",
   "devDependencies": {
     "@playwright/test": "^1.59.1"
   },
