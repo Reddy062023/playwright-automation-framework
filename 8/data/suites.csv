@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1529","Browser context Playwright test","chromium","Tue Apr 21 19:07:54 UTC 2026","passed","Tue Apr 21 19:07:56 UTC 2026","","ui/UIBasics.spec.js","",""
+"","205","basic homepage test","chromium","Tue Apr 21 19:07:54 UTC 2026","passed","Tue Apr 21 19:07:55 UTC 2026","","e2e/example.spec.js","",""
+"","681","First Playwright test","chromium","Tue Apr 21 19:07:57 UTC 2026","passed","Tue Apr 21 19:07:57 UTC 2026","","ui/UIBasics.spec.js","",""
